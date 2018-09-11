@@ -1,5 +1,5 @@
 ---
-title: Run Java application server on a classic Azure VM
+title: Run Tomcat for Java web apps on a classic Azure VM
 description: This tutorial uses resources created with  the classic deployment model, and shows how to create a Windows Virtual machine and configure it to run Apache Tomcat application server.
 services: virtual-machines-windows
 documentationcenter: java
@@ -17,7 +17,7 @@ ms.date: 04/11/2018
 ms.author: robmcm
 
 ---
-# How to run a Java application server on a virtual machine created with the classic deployment model
+# How to run Apache Tomcat for Java web application on a virtual machine created with the classic deployment model
 > [!IMPORTANT]
 > Azure has two different deployment models for creating and working with resources: [Resource Manager and Classic](../../../resource-manager-deployment-model.md). This article covers using the Classic deployment model. Microsoft recommends that most new deployments use the Resource Manager model. For a Resource Manager template to deploy a webapp with Java 8 and Tomcat, see [here](https://azure.microsoft.com/documentation/templates/201-web-app-java-tomcat/).
 > [!INCLUDE [virtual-machines-common-classic-createportal](../../../../includes/virtual-machines-classic-portal.md)]
